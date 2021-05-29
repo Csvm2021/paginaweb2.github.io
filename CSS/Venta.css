@@ -1,0 +1,225 @@
+/*CABEZA----------------------------------------------------------------------------------------*/
+header{
+    background: linear-gradient(to right, rgb(54, 32, 83), rgb(18, 4, 36),rgb(58, 1, 1));
+    height: 155px;
+    width: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 100px;
+}
+.n_pag{
+    color: ivory;
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 130px;
+}
+.sub_pag{
+    color: floralwhite;
+    margin: 39px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+/*EL BUSCADOR---------------------------------------------------------------------------------*/
+.busca{
+    height: 30px;
+    width: 800px;
+    border-radius: 7px;
+    border: 0;
+}
+.encontrar{
+    height: 30px;
+    width: 75px;
+    font-size: 17px; 
+    border-radius: 7px;
+    background-color: rgb(63, 14, 63);
+    border: 0;
+    color: snow;
+}
+/*EL NAVEGADOR---------------------------------------------------------------------------------*/
+.nav{
+    font-size: 25px;
+}
+#contenedor{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    position: relative;
+    left: 420px;
+    float: left;
+    top: -140px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    padding: 13px 19px;
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+.nav li a:hover{
+    background-color: powderblue;
+    color: ivory;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover >ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.ps4{
+    right: -382px;
+    top: 0px;
+}
+.ps5{
+    right: -434px;
+    top: 0px;
+}
+.xbox{
+    right: -180px;
+    top: 0px;
+}
+/*PRIMER ARTICULO-----------------------------------------------------------------------------------------*/
+/*NOTA:USAR EL MISMO PATRON DE ARTICULO-------------------------------------------------------------------*/
+/*NOTA:SI VAN A USAR FLOAT ORDENEN BIEN Y NO SE OLVIDEN DEL CLEAR BOTH------------------------------------*/
+.articulo1{
+    background: linear-gradient(to bottom right, rgb(74, 74, 75), rgb(0, 0, 0));
+    color: white;
+    border: 0;
+    height: 800px;
+    width: auto;
+}
+.compu{
+    margin-left: 5%;
+    height: 500px;
+    width: 450px;
+    float: left;
+}
+.compu_car{
+    float: right;
+    font-size: 20px;
+}
+.compu_aux{
+    margin-right: 40px;
+    float: right;
+}
+/*Imagen de promocion--------------------------------------------------------------------------------------*/
+.imagen_promocion{
+    width: 100%;
+    display: flex;
+}
+/*SEGUNDO ARTICULO-----------------------------------------------------------------------------------------*/
+.articulo2{
+    background: linear-gradient(to bottom left, rgb(74, 74, 75), rgb(0, 0, 0));
+    border: 0;
+    height: 540px;
+    width: auto;
+}
+.articulo2_escrito{
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 600px;
+}
+.imagen_estadistis{
+    float: right;
+    margin-right: 40px;
+    margin-top: 150px;
+}
+/*TERCERO ARTICULO---------------------------------------------------------------------------------------*/
+.articulo3{
+    background: linear-gradient(to top, rgb(74, 74, 75), rgb(0, 0, 0));
+    border: 0;
+    height: 560px;
+    width: auto;
+}
+.articulo3_titulo{
+    float: left;
+    color: red;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 600px;
+}
+.articulo3_escrito{
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 600px;
+}
+.articulo3_imagen{
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+/*CuUARTO ARTICULO---------------------------------------------------------------------------------------*/
+.articulo4{
+    background: linear-gradient(to bottom, rgb(74, 74, 75), rgb(0, 0, 0));
+    border: 0;
+    height: 560px;
+    width: auto;
+}
+.articulo4_titulo{
+    float: left;
+    color: red;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 600px;
+}
+.articulo4_escrito{
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 600px;
+}
+.articulo4_imagen{
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+    width: 900px;
+    height: 200px;
+
+}
+/*FOOTER-------------------------------------------------------------------------------------------------*/
+.pies{
+    background-color: rgb(12, 12, 46);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+}
+.contacto{
+    font-size: 30px;
+    margin: 20px;
+    color: snow;
+}
+.con_pies{
+    font-size: 15px;
+    margin: 30px;
+    color: snow;
+}

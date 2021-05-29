@@ -1,0 +1,161 @@
+header{
+    background-color: rgb(54, 32, 83);
+    height: 220px;
+}
+.logo2{
+    margin-left: 10px;
+    margin-top: 50px;
+    float: left;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.n_pag{
+    color: ivory;
+    margin: 0px;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.sub_pag{
+    color: floralwhite;
+    margin: 39px;
+    font-size: 20px;
+}
+.busca{
+    height: 30px;
+    width: 800px;
+    border-radius: 7px;
+    border: 0;
+}
+.encontrar{
+    height: 30px;
+    width: 75px;
+    font-size: 17px; 
+    border-radius: 7px;
+    background-color: darkmagenta;
+    border: 0;
+    color: snow;
+}
+.nav{
+    font-size: 25px;
+}
+#contenedor{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    position: relative;
+    left: 390px;
+    float: left;
+    top: -120px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    padding: 13px 19px;
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+.nav li a:hover{
+    background-color: powderblue;
+    color: ivory;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover >ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.ps4{
+    right: -382px;
+    top: 0px;
+}
+.ps5{
+    right: -434px;
+    top: 0px;
+}
+.xbox{
+    right: -180px;
+    top: 0px;
+}
+.articulo{
+    margin: 30px;
+    box-shadow: 0 2px 2px 0 slategrey;
+    float: left;
+    width: 320px;
+    height: 650px;
+}
+.articulo img{
+    width: 90%;
+    height: auto;
+    transition: all 300ms;
+    padding: 15px;
+}
+.articulo:hover{
+    border: 5px solid slategrey;
+    transform: scale(1.05);
+}
+.texto{
+    text-align: center;
+    padding: 10px;
+}
+.item1{}
+.fila1{
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    height: ;
+    display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.fila2{
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    height: ;
+    display: grid;
+}
+.fila3{
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    height: ;
+    display: grid;
+}
+#principal{
+    background-color: white;
+}
+a {
+    color: black;
+}
+button{
+    margin-top: 5%;
+}
+.pies{
+    background-color: rgb(12, 12, 46);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+}
+.contacto{
+    font-size: 30px;
+    margin: 20px;
+    color: snow;
+}
+.con_pies{
+    font-size: 15px;
+    margin: 30px;
+    color: snow;
+}
